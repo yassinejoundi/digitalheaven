@@ -1,0 +1,19 @@
+:root {
+  --primary: #3949ab; /* Primary color */
+
+  /* Secondary color, a shade lighter than primary */
+  --secondary: #5a67d8;
+
+  /* Background color, a very light shade that won't contrast too heavily with white */
+  --background: #f3f4f6;
+
+  /* Text color, something dark for contrast against the light background */
+  --text: #1a202c;
+
+  /* Accent color, a contrasting color for calls to action or highlights */
+  --accent: #f56565;
+
+  /* Light and dark variants of primary color for hover and active states */
+  --primary-light: #6371c7;
+  --primary-dark: #2c3382;
+}
