@@ -17,3 +17,36 @@
   --primary-light: #6371c7;
   --primary-dark: #2c3382;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  color: var(--text);
+}
+
+/* Style headings */
+h1,
+h2,
+h3 {
+  color: var(--primary);
+}
+
+/* Style buttons */
+.button {
+  background-color: var(--accent);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--primary-light);
+}

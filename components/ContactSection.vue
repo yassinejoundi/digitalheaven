@@ -1,67 +1,63 @@
 <template>
-  <section class="contact-section">
-    <div class="content-container">
-      <h2 class="section-title">Get In Touch With Us</h2>
-      <div class="contact-info">
-        <p>Email: contact@digitalheaven.agency</p>
-        <p>Instagram: @digitalheaven.agency</p>
-      </div>
-      <div class="social-links">
-        <a href="#" class="social-link">Facebook</a>
-        <a href="#" class="social-link">Twitter</a>
-        <a href="#" class="social-link">LinkedIn</a>
-      </div>
+  <section class="contact-section" id="contact-section">
+    <h2 class="contact-title">Let's Start Your Next Project Together</h2>
+    <p class="contact-subtitle">Reach out and let us know how we can help.</p>
+    <div class="contact-links">
+      <a href="mailto:contact@digitalheaven.agency" class="contact-link"
+        >Email Us</a
+      >
+      <a
+        href="https://www.instagram.com/digitalheaven.agency/"
+        class="contact-link"
+        target="_blank"
+        >Instagram</a
+      >
+      <a
+        href="https://api.whatsapp.com/send?phone=yourphonenumber"
+        class="contact-link"
+        target="_blank"
+        >WhatsApp</a
+      >
     </div>
   </section>
 </template>
 
-<script>
-export default {}
-</script>
+<style>
+.contact-section {
+  text-align: center;
+  background-color: var(--secondary);
+  padding: 2em 0;
+  color: white;
+  max-width: 100vw;
+}
 
-<style scoped>
-.section-title {
-  color: var(--primary);
+.contact-title {
   font-size: 2em;
   margin-bottom: 1em;
-  text-align: center;
+  color: white;
 }
 
-.contact-section {
-  background-color: var(--background);
-  padding: 2em 0;
-}
-
-.contact-info,
-.social-links {
-  color: var(--text);
+.contact-subtitle {
   font-size: 1.2em;
-  line-height: 1.6em;
-  text-align: center;
+  margin-bottom: 2em;
 }
 
-.social-link {
-  color: var(--secondary);
-  margin: 0 1em;
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.contact-link {
+  background-color: var(--primary);
+  padding: 1em 2em;
+  color: white;
   text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-.social-link:hover {
-  color: var(--primary);
-}
-
-@media (min-width: 768px) {
-  .section-title {
-    font-size: 2.5em;
-  }
-
-  .contact-info,
-  .social-links {
-    font-size: 1.5em;
-  }
-
-  .contact-section {
-    padding: 4em 0;
-  }
+.contact-link:hover {
+  background-color: var(--primary-light);
 }
 </style>

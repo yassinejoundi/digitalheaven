@@ -1,16 +1,18 @@
 <template>
   <div class="home-page">
     <hero-section />
+    <about-section />
+    <testimonials-section />
+    <contact-section />
     <problem-section />
     <solution-section />
     <call-to-action-section />
-    <testimonials-section />
     <final-call-to-action-section />
-    <contact-section />
   </div>
 </template>
 
 <script>
+import AboutSection from '~/components/aboutSection.vue'
 import CallToActionSection from '~/components/CallToActionSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
 import FinalCallToActionSection from '~/components/FinalCallToActionSection.vue'
@@ -29,6 +31,7 @@ export default {
     TestimonialsSection,
     FinalCallToActionSection,
     ContactSection,
+    AboutSection,
   },
 }
 </script>
