@@ -1,63 +1,86 @@
 <template>
-  <section class="contact-section" id="contact-section">
-    <h2 class="contact-title">Let's Start Your Next Project Together</h2>
-    <p class="contact-subtitle">Reach out and let us know how we can help.</p>
-    <div class="contact-links">
-      <a href="mailto:contact@digitalheaven.agency" class="contact-link"
-        >Email Us</a
-      >
+  <section class="cta-section">
+    <h2 class="cta-title" data-aos="fade-up">Get In Touch</h2>
+    <p class="cta-text" data-aos="fade-up">
+      Interested in improving your online presence? Let's talk!
+    </p>
+    <div class="cta-contacts" data-aos="fade-up">
       <a
+        class="cta-contact"
+        href="mailto:contact@digitalheaven.agency"
+        target="_blank"
+      >
+        <i class="fas fa-envelope"></i>
+        Email
+      </a>
+      <a
+        class="cta-contact"
         href="https://www.instagram.com/digitalheaven.agency/"
-        class="contact-link"
         target="_blank"
-        >Instagram</a
       >
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
       <a
+        class="cta-contact"
         href="https://api.whatsapp.com/send?phone=yourphonenumber"
-        class="contact-link"
         target="_blank"
-        >WhatsApp</a
       >
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp
+      </a>
     </div>
   </section>
 </template>
 
-<style>
-.contact-section {
+<script>
+export default {}
+</script>
+
+<style scoped>
+.cta-section {
+  background-color: var(--background);
+  padding: 2em 1em;
   text-align: center;
-  background-color: var(--secondary);
-  padding: 2em 0;
-  color: white;
-  max-width: 100vw;
 }
 
-.contact-title {
+.cta-title {
+  color: var(--primary-light);
   font-size: 2em;
   margin-bottom: 1em;
-  color: white;
 }
 
-.contact-subtitle {
+.cta-text {
   font-size: 1.2em;
+  line-height: 1.6em;
   margin-bottom: 2em;
 }
 
-.contact-links {
+.cta-contacts {
   display: flex;
   justify-content: center;
   gap: 1em;
 }
 
-.contact-link {
-  background-color: var(--primary);
-  padding: 1em 2em;
-  color: white;
+.cta-contact {
+  background-color: var(--secondary);
+  color: var(--background);
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
   text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  width: 130px;
 }
 
-.contact-link:hover {
-  background-color: var(--primary-light);
+.cta-contact:hover {
+  transform: scale(1.1);
+}
+
+.cta-contact i {
+  margin-right: 0.5em;
+  font-size: 1em;
 }
 </style>

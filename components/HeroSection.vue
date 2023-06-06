@@ -9,7 +9,11 @@
         reviews, more new customers.
       </p>
       <div class="cta-button-container">
-        <a class="cta-button" href="#contact-section">
+        <a
+          class="cta-button"
+          href="https://api.whatsapp.com/send?phone=yourphonenumber"
+          target="_blank"
+        >
           <i class="fas fa-rocket"></i> Get Started
         </a>
       </div>
@@ -34,13 +38,15 @@ export default {}
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2em 0;
+  padding: 2em 1em;
+  text-size-adjust: 100%;
 }
 
 .hero-title {
   color: var(--background);
   font-size: 2em;
   text-align: center;
+  text-size-adjust: 100%;
 }
 
 .hero-subtitle {
@@ -48,6 +54,7 @@ export default {}
   font-size: 1.5em;
   margin-top: 0.5em;
   text-align: center;
+  text-size-adjust: 100%;
 }
 
 .hero-description {
@@ -57,12 +64,14 @@ export default {}
   margin-top: 1em;
   text-align: center;
   max-width: 600px; /* To keep the line length comfortable to read */
+  text-size-adjust: 100%;
 }
 
 .cta-button-container {
   display: flex;
   justify-content: center;
   margin-top: 1.5em;
+  text-size-adjust: 100%;
 }
 
 .cta-button {
@@ -77,6 +86,7 @@ export default {}
   padding: 1em 2em;
   text-decoration: none; /* Since it's a link now, not a button */
   transition: all 0.3s ease;
+  text-size-adjust: 100%;
 }
 
 .cta-button i {
@@ -84,7 +94,8 @@ export default {}
 }
 
 .cta-button:hover {
-  /*background-color: var(--primary-light);*/
+  background-color: var(--primary-dark);
+  color: var(--background);
   transform: scale(1.05); /* Added scale effect on hover */
 }
 
@@ -96,23 +107,28 @@ export default {}
 .hero-image-container img {
   width: 100%;
   height: auto;
+  text-size-adjust: 100%;
 }
 
 .content-container {
   margin-bottom: 2em;
+  text-size-adjust: 100%;
 }
 
 @media (min-width: 768px) {
   .hero-section {
     flex-direction: row;
     justify-content: space-around;
+    text-size-adjust: 100%;
   }
   .content-container {
     margin-bottom: 0;
     width: 45%;
+    text-size-adjust: 100%;
   }
   .hero-image-container {
     width: 45%;
+    text-size-adjust: 100%;
   }
 }
 </style>

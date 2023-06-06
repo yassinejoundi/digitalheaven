@@ -40,9 +40,13 @@
       </div>
     </div>
     <div class="cta-container" data-aos="fade-up">
-      <button class="cta-button">
+      <a
+        class="cta-button"
+        href="https://api.whatsapp.com/send?phone=yourphonenumber"
+        target="_blank"
+      >
         <i class="fas fa-rocket"></i> Learn More
-      </button>
+      </a>
     </div>
   </section>
 </template>
@@ -113,6 +117,7 @@ export default {}
   font-size: 1.2em;
   padding: 1em 2em;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .cta-button i {

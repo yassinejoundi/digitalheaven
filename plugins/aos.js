@@ -1,5 +1,5 @@
 import AOS from 'aos'
 
 export default ({ app }) => {
-  app.AOS = new AOS.init({ disable: 'phone' }) // You can also pass parameters here
+  app.AOS = new AOS.init() // You can also pass parameters here
 }
