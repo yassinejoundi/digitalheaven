@@ -1,68 +1,45 @@
-# digitalheaven
+# Digital Heaven Agency Website
 
-## Build Setup
+Boost your Google Maps reviews with Digital Heaven Agency, a reliable review enhancement service.
 
-```bash
-# install dependencies
-$ npm install
+![Website screenshot](./screenshot.jpeg)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## About
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+The Digital Heaven Agency website is a modern, responsive web application built with Vue.js and Nuxt.js. It showcases our service offerings and provides multiple contact methods for potential clients. Improve your visibility, gain new customers, and boost your online reputation with our reliable review enhancement service. More positive reviews, more new customers.
 
-# generate static project
-$ npm run generate
-```
+Check it out live: [www.digitalheaven.agency](https://www.digitalheaven.agency/)
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Features
 
-## Special Directories
+- Responsive design for mobile and desktop
+- SEO-friendly with meta tags and schema
+- Contact form for direct enquiries
+- Links to social media accounts
+- Animations for an engaging user experience
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Local Development
 
-### `assets`
+To start a local development server:
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+1. Clone this repository
+2. Install the dependencies using `npm install`
+3. Start the development server using `npm run dev`
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+Visit `http://localhost:3000` in your browser to view the website.
 
-### `components`
+## Deploying
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+The website can be deployed as a static site or as a server-side rendered application. Run `npm run generate` for a static site or `npm run build` for a SSR app.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+## Contact
 
-### `layouts`
+If you have any questions or feedback, feel free to open an issue or submit a pull request. You can also contact us at contact@digitalheaven.agency or via our [Instagram](https://www.instagram.com/digitalheaven.agency/) account.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+## Author
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+Created by [Yassine Joundi](https://github.com/yassinejoundi)
 
-### `pages`
+## License
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+This project is open source and available under the [MIT License](LICENSE).
