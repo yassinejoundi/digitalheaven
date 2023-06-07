@@ -2,7 +2,7 @@
 
 Boost your Google Maps reviews with Digital Heaven Agency, a reliable review enhancement service.
 
-![Website screenshot](./screenshot.png)
+![Website screenshot](./screenshot.jpeg)
 
 ## About
 
