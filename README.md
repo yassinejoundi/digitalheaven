@@ -2,7 +2,7 @@
 
 Boost your Google Maps reviews with Digital Heaven Agency, a reliable review enhancement service.
 
-![Website screenshot](./screenshot.jpeg)
+![Website screenshot](./screenshot.png)
 
 ## About
 
@@ -17,6 +17,14 @@ Check it out live: [www.digitalheaven.agency](https://www.digitalheaven.agency/)
 - Contact form for direct enquiries
 - Links to social media accounts
 - Animations for an engaging user experience
+
+## Technologies
+
+This project uses a number of open source projects and technologies:
+
+- [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
+- [Nuxt.js](https://nuxtjs.org/) - The Intuitive Vue Framework
+- [AOS](https://michalsnik.github.io/aos/) - Animate on Scroll Library
 
 ## Local Development
 
